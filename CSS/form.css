@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  background-color: #99FFFF;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-family: Arial;
+}
+form {
+	border: 1px solid red;
+	background-color: white;
+
+}
+p {
+	font-family: sans-serif;
+}
+lable {
+	font-family: sans-serif;
+}
+table {
+	margin: 0 auto;
+}
+tr {
+	margin: 10px;
+	
+}
+
+#dropdownI {
+	position: relative;
+	margin: 10px;
+}
+.radioI {
+	font-family: Arial;
+}
+
+#table2 td{
+	text-align: left
+}

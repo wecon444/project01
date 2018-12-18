@@ -1,0 +1,74 @@
+div.content :first-child {
+	color: red;
+}
+div.content :first-of-type {
+	color: blue;
+}
+div.content > :last-child {
+	color: green;
+}
+div.content :last-of-type {
+	color: violet;
+}
+div.content :nth-last-child(3){
+	color: yellow;
+}
+div.content :nth-last-of-type(3){
+	color: pink;
+}
+div.content :nth-child(2){
+	color: orange;
+}
+div.content :nth-of-type(2){
+	color: silver;
+}
+
+section.box h5:first-of-type{
+	color: red;
+}
+
+
+section.only-child :only-child{
+	color: blue;
+}
+section.form input[name='user']:focus{
+	border:  1px solid red;
+	width: 500px;
+}
+section.form input[type='checkbox']:checked{
+	width: 300px;
+	height: 300px;
+}
+section.form input[type='radio']:checked{
+	width: 300px;
+	height: 300px;
+}
+section.myLinks a:active{
+	color: yellow;
+}
+section.myLinks a:visited{
+	color: red;
+}
+section.myLinks a:link {
+	color: orange;
+}
+section.myLinks a:hover {
+	color: violet;
+}
+div.container p::first-letter{
+	color: red;
+	font-size: 50px;
+}
+div.container p::first-line{
+	color: blue;
+}
+div.container p::before{
+	/* content:  "PHP1811E"; */
+	content:  url('../img/girl.png');
+}
+div.container p::after{
+	content:  url('../img/girl.png');
+}
+div.container p::selection{
+	color: green;
+}
